@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта Києва</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        iframe {
+            flex: 1 1 600px;
+            max-width: 600px;
+            height: 400px;
+            border: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .contact-info {
+            flex: 1 1 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            font-size: 0.95em;
+        }
+
+        .contact-info h2 {
+            color: #005bb5;
+            margin-top: 0;
+        }
+
+        .contact-info p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Як нас знайти?</h1>
+    </header>
+    <div class="content">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.038011261917!2d30.516458616067303!3d50.450253179471116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf0e9ba2a657%3A0x9c84b31b3d1c70c9!2sKhreshchatyk%20St%2C%20Kyiv%2C%20Ukraine%2C%2002000!5e0!3m2!1sen!2sua!4v1699816167038!5m2!1sen!2sua" 
+            allowfullscreen="">
+        </iframe>
+        <div class="contact-info">
+            <h2>Контакти</h2>
+            <p>📍 <strong>Адреса:</strong> Київ, вул. Технологічна, 15, офіс 42</p>
+            <p>🕒 <strong>Робочі години:</strong> Понеділок – П’ятниця: 9:00 – 18:00<br>Субота – Неділя: вихідний</p>
+            <p>📞 <strong>Для клієнтів:</strong> +38 (044) 123-45-67</p>
+            <p>📞 <strong>Технічна підтримка:</strong> +38 (067) 987-65-43</p>
+            <p>📞 <strong>Питання співпраці:</strong> +38 (050) 456-78-90</p>
+            <p>📩 <strong>Електронна пошта:</strong></p>
+            <p><a href="mailto:info@linguabotics.com">info@linguabotics.com</a></p>
+            <p><a href="mailto:support@linguabotics.com">support@linguabotics.com</a></p>
+            <p><a href="mailto:partners@linguabotics.com">partners@linguabotics.com</a></p>
+            <p><strong>Ми в соцмережах:</strong></p>
+            <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">LinkedIn</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 СяоЧжі. Всі права захищені. <a href="contact.html">Контакти</a></p>
+    </footer>
+</body>
+</html>

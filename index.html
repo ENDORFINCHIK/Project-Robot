@@ -1,51 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Робот помічник</title>
+    <title>СяоЧжі - Ваш мовний помічник</title>
     <style>
-        .image-container {
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px;
             text-align: center;
-            max-width: 400px; 
-            margin: 0 auto;
         }
-        .image-container img {
-            width: 100%; 
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
         }
-        .image-container p {
-            text-align: justify; 
-            margin: 10px; 
+        .buy-button {
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
         }
-        .container {
-            display: flex; 
-            justify-content: space-between; 
+        .buy-button:hover {
+            background-color: #005bb5;
         }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+        
+        nav {
+    background-color: #0078d7; /* Колір фону, який відповідає заголовку */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Невелика тінь для об'єму */
+    padding: 10px 0; /* Відступи зверху та знизу */
+}
+
+nav ul {
+    list-style: none; /* Видалення стандартного маркування списків */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Центруємо навігацію */
+    gap: 20px; /* Простір між пунктами меню */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none; /* Видаляємо підкреслення */
+    color: white; /* Білий текст */
+    font-weight: bold; /* Жирний текст */
+    padding: 10px 15px; /* Відступи всередині пунктів меню */
+    border-radius: 5px; /* Округлені кути */
+    transition: background-color 0.3s ease; /* Плавний перехід кольору при наведенні */
+}
+
+nav ul li a:hover {
+    background-color: #005bb5; /* Темніший колір при наведенні */
+}
+
+    
     </style>
 </head>
-<body bgcolor="#397d63" text="white">
-
-    <h1 align="center" style="margin-top: 50px; border: solid 2px black; border-color: aquamarine;">Робот помічник - крок до вивчення іноземних мов!</h1>
-
-    <div class="container">
-        <div class="image-container" align="left">
-            <img src="imges/Kids.jpg" alt="Дитячий робот" border="3px" align="right" width="400px" height="400px" style="margin-top: 50px; border-color: #0a70df;">
-            <p>
-                Робот ROYBI — Цей навчальний робот використовує ШІ, щоб допомогти дітям вивчати кілька мов, зокрема англійську, іспанську та мандаринську китайську, через інтерактивні уроки й активності, що адаптуються під вік і інтереси користувача. Він пропонує тисячі заздалегідь підготовлених занять, роблячи навчання веселим за допомогою пісень, історій та розпізнавання мовлення. ROYBI є популярним як вдома, так і в школах.
-            </p>
-        </div>
-        <div class="image-container" align="right">
-            <img src="imges/beginer-green.jpg" alt=" Робот ELIAS" border="3px" align="center" width="400px" height="400px" style="margin-top: 50px; border-color: aquamarine;">
-            <p>
-                Робот Elias — Elias спеціалізується саме на вивченні мов, допомагаючи учням навчатися за допомогою розмов у реальному часі та мовних модулів на різні теми. Робот створений для шкільних занять, підтримує багато мов та дозволяє вчителям налаштовувати уроки під потреби учнів. Elias використовує розпізнавання мовлення та гейміфікацію, щоб заохочувати учнів до навчання у веселому і безпечному середовищі.  
-            </p>
-        </div>
-        <div class="image-container" align="center">
-            <img src="imges/beginer-pink.jpg" alt="Робот Moxie" border="3px" align="left" width="400px" height="400px" style="margin-top: 50px; border-color: #a90adf"> 
-            <p>
-                Робот Moxie — Moxie спеціалізується на розвитку соціально-емоційних навичок, але також підтримує мовні й комунікативні здібності. Робот заохочує розвиток словникового запасу і мовлення через розмови, читання вголос та розповідання історій. Завдяки обробці природної мови Moxie взаємодіє більш природно й може емоційно реагувати. 
-            </p>
-        </div>
-    </div>
+<body>
+    <header>
+        <h1>СяоЧжі</h1>
+        <nav>
+            <ul>
+                <li><a href="product.html" target="content">Головна</a></li>
+                <li><a href="catalog.html" target="content">Каталог</a></li>
+                <li><a href="contact.html" target="content">Контакти</a></li>
+            </ul>
+        </nav>        
+    </header>
+    
+    <iframe src="product.html" frameborder="0" width="100%" height="650px" name="content" align="right"></iframe>
+    <footer>
+        <p>&copy; 2024 СяоЧжі. Всі права захищені. <a href="contact.html">Контакти</a></p>
+    </footer>
 </body>
 </html>
